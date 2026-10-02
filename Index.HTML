@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chase Avellan | Supply Chain Management</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f5f7fa;
+    }
+    header {
+      background: #16324f;
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+    header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    header p { font-size: 1.15rem; color: #dbeafe; }
+    nav {
+      background: #0f2438;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: white;
+      padding: 35px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+    }
+    h2 {
+      color: #16324f;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+    }
+    .skills li {
+      background: #e7f0f8;
+      color: #16324f;
+      padding: 10px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .project {
+      border-left: 4px solid #16324f;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .project:last-child { margin-bottom: 0; }
+    .project h3 {
+      color: #16324f;
+      margin-bottom: 8px;
+    }
+    .project p { margin-bottom: 10px; }
+    .project-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 9px 16px;
+      background: #16324f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .project-link:hover { opacity: 0.85; }
+    .project strong { color: #111827; }
+    footer {
+      text-align: center;
+      background: #16324f;
+      color: white;
+      padding: 25px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      nav a { display: inline-block; margin: 5px 8px; }
+      section { padding: 25px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Chase Avellan</h1>
+    <p>Supply Chain Management Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Personal Statement</h2>
+      <p>
+        I am a Supply Chain Management student interested in using technology,
+        data, and analytical problem-solving to improve logistics, operations,
+        and supply chain efficiency.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Supply Chain Management</li>
+        <li>Logistics &amp; Transportation</li>
+        <li>Inventory Management</li>
+        <li>Procurement</li>
+        <li>Data Analysis</li>
+        <li>Microsoft Excel</li>
+        <li>Problem Solving</li>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>AI &amp; the Future of Business</h3>
+        <p>
+          Research project examining how artificial intelligence is transforming
+          marketing, sales, and customer service. The project explored AI
+          automation, customer experiences, and how businesses can adapt by
+          combining human skills with AI technology.
+        </p>
+        <p><strong>Skills Used:</strong> Research, Business Analysis, AI, Critical Thinking</p>
+        <a class="project-link" href="Current Events Project.pdf" target="_blank">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Sports Management &amp; Leadership</h3>
+        <p>
+          Management project analyzing Todd Anderson, founder of DREAM, and his
+          experience building a company focused on sports medicine and sleep
+          health. The project examined leadership, communication, teamwork,
+          goal-setting, business challenges, and social media strategy.
+        </p>
+        <p><strong>Skills Used:</strong> Research, Management, Leadership, Communication, Business Analysis</p>
+        <a class="project-link" href="Sports Management Presentation.pdf" target="_blank">View Project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Chase Avellan | Supply Chain Management</p>
+  </footer>
+</body>
+</html>
